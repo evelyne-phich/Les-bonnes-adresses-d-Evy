@@ -1,0 +1,54 @@
+@media (max-width: 480px) {
+  .header {
+    height: 100px;
+  }
+  .header .title {
+    font-size: 30px;
+  }
+  .header .logo {
+    font-size: 30px;
+  }
+  .navigation {
+    font-size: 16px;
+  }
+  .navBar {
+    height: 40px;
+  }
+  .navBar .navBarItem {
+    height: 40px;
+  }
+  .navBar .navBarItem:first-child {
+    flex: none;
+    width: 40px;
+  }
+  .navBar .navBarItem .dropdown .dropdownButton img {
+    height: 25px;
+    width: 25px;
+  }
+  .navBar .navBarItem .dropdown {
+    font-size: 16px;
+  }
+  .navBar .navBarItem .dropdown .dropdownItem {
+    height: 40px;
+    font-size: 16px;
+    text-align: center;
+  }
+  .navBar .navBarItem:first-child .dropdown .dropdownMenu .dropdownItem {
+    height: 40px;
+    padding: 0px 10px;
+  }
+  .goodAddress .name {
+  font-size: 24px;
+}
+  .pageTitle {
+  text-align: center;
+  font-size: 30px;
+  font-family: "Londrina Outline";
+  border-style: ridge;
+  display: flex;
+  width: fit-content;
+  margin-bottom: 0;
+  padding: 10px;
+  background-color: rgba(48, 46, 46, 0.9);
+  color: white;
+}
